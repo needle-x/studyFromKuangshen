@@ -1,0 +1,19 @@
+person:
+  name: needle@lxm.com
+  age: ${random.int}
+  happy: false
+  birth: 2019/11/20
+  maps: {k1: v1, k2: v2}
+  hello: hey
+  list:
+    - code
+    - music
+    - boy
+  dog:
+    first-name: ${person.hello:hello}_旺财
+    age: 3
+
+
+dog:
+  first-name: 小黑
+  age: 3
